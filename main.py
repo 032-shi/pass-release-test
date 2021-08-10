@@ -1,4 +1,4 @@
-# 日本語対応させる
+# coding: UTF-8
 import zipfile
 
 def main():
