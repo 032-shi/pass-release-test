@@ -16,8 +16,11 @@ def main():
   print(numbers)
   my_passwords = []
 
-  for a in numbers:
-    print(a)
+  for a in numbers: #1桁目の数字の生成
+    #print(a)
+    for b in numbers: #2桁目の数字の生成
+      answer = str(a) + str(b)
+      print(answer)
 
 if __name__ == "__main__":
   main()
