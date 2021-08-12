@@ -21,8 +21,8 @@ def main():
     for b in numbers: #2桁目の数字の生成
       #answer = str(a) + str(b)
       #print(answer)
-      for c in numbers:
-        for d in numbers:
+      for c in numbers: #3桁目の数字の生成
+        for d in numbers: #4桁目の数字の生成
           prediction_password = str(a) + str(b) + str(c) + str(d)
           print(prediction_password)
 
